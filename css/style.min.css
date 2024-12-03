@@ -23063,6 +23063,15 @@ z-index: 0;
     background: #fff; 
     transition:  0.5s ease; 
 }
+.bg-csm-color .custom-animation-zoom{
+    transition:  0.5s ease;  
+}
+.features-single:hover .bg-csm-color .custom-animation-zoom {
+ opacity: .5;
+ background: -webkit-linear-gradient(45deg, #FF644B, #841E78 80%);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
 
 .features-single:hover .bg-csm-color {
     /* background: linear-gradient(to right, #b45bc8, #d36e1d, #d18215); 
@@ -23070,16 +23079,44 @@ z-index: 0;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
+.custom-fit-img img{
+    transition: transform 0.3s ease; /* Smooth transition */
+    overflow: hidden;
+}
 
-
-
-.bg-csm-color span {
+.features-single:hover .custom-fit-img img {
+    transform: scale(1.1); /* Zoom in by 20% on hover */
+    overflow: hidden;
+}
+.custom-fit-img {
+    width: 100%;
+    height:auto;
+    overflow: hidden;
+    border-radius: 15px 15px 0 0;
+  }
+  
+  .custom-fit-img img {
+    width: 100%;
+    transition: all .3s ease-in-out;
+  }
+  
+  .custom-fit-img img:hover   {
+    transform: scale(1.2);
+  }
+  .bg-csm-color h6 {
     color: #841E78;
-    transition: color 0.9s ease-in-out;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.features-card{
+    border-radius: 15px;
+    min-height: 600px;
+}
+.bg-csm-color span {
+    /* color: #841E78; */
 }
 .bg-csm-color p {
     color:#000;
-    transition: color 0.9s ease-in-out; 
 }
 .bg-csm-color a span{
     color: #fff;
