@@ -23376,6 +23376,13 @@ margin-top: 100px;
   .features-single .bg-csm-color{
     min-height: 330px !important;
   }
+.custom-app-btn{
+    margin-top: 10px;
+}
+  .custom-app-btn img{
+    height: 60px;
+    width: 100px;
+  }
 @media screen and (max-width:1400px) {
 .banner-text h1 {
     font-size: 45px;
@@ -23430,6 +23437,7 @@ margin-top: 100px;
 .banner-text h1 {
     font-size: 35px;
 }
+
 }
 @media screen and (max-width: 600px) {
     .custom-gif-card {
@@ -23442,4 +23450,19 @@ margin-top: 100px;
     /* .mt-30px {
         margin-top: 0px !important;
     } */
+   
+    }
+    @media screen and (max-width: 475px) {
+        .banner-text h1 {
+            font-size: 26px;
+            margin-bottom: 10px;
+        }
+        .banner-text p {
+            font-size: 15px;
+            margin-bottom: 18px !important;
+        }
+        .btn.btn-extra-large {
+            font-size: 14px !important;
+            padding: 12px 25px !important;
+        }
     }

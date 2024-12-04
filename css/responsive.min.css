@@ -28148,4 +28148,15 @@ header .navbar [class*=col-] .navbar-nav .nav-item, header .navbar [class*=col-]
 .navbar .navbar-nav .nav-item.active .nav-link, .navbar-full-screen-menu-inner .navbar-nav .nav-item.active .nav-link, .navbar-modern-inner .navbar-nav .nav-item.active .nav-link {
     color:#661aff ;
 }
+.md-mb-30px {
+    margin-bottom: 30px !important;
+}
+/* .navbar-expand-lg .navbar-toggler {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center
+} */
 }
