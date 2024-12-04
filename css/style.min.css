@@ -23213,8 +23213,16 @@ z-index: 0;
     opacity: 1;
 }
 .bg-base-color-custom .bg-base-color, .header-cart-icon .cart-count {
-    background-image: linear-gradient(to right, #b45bc8, #d36e1d);
+    background-image: linear-gradient(to right, purple, mediumpurple) !important;
 }
+.bg-base-color-custom .bg-base-color, .header-cart-icon .cart-count span {
+color: #fff;
+}
+
+    /* .custom-circle span{
+        color: red;
+    } */
+   
 .bg-base-color-custom .last-paragraph-no-margin p:last-of-type {
     margin-bottom: 0;
     line-height: normal;
