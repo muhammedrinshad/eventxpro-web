@@ -23406,9 +23406,11 @@ margin-top: 100px;
         margin-top: auto;
     }
     .custom-swiper-wrapper .swiper-slide {
-        height: 70%;
-
+        height: 90%;
         margin-top: 0;
+    }
+    .md-h-500px {
+        height: 500px !important;
     }
 }
 @media screen and (max-width: 768px) {
@@ -23416,9 +23418,22 @@ margin-top: 100px;
     width: 85%;
     margin: 0 auto;
 }
+.md-h-500px {
+    height: 250px !important;
+}
+.banner-text h1 {
+    font-size: 35px;
+}
 }
 @media screen and (max-width: 600px) {
     .custom-gif-card {
         width:100%;
     }
+    .custom-swiper-wrapper .swiper-slide {
+        height: 100%;
+        margin-top: 0 !important;
+    }
+    /* .mt-30px {
+        margin-top: 0px !important;
+    } */
     }
