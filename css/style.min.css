@@ -23216,12 +23216,10 @@ z-index: 0;
     background-image: linear-gradient(to right, purple, mediumpurple) !important;
 }
 .bg-base-color-custom .bg-base-color, .header-cart-icon .cart-count span {
-color: #fff;
+color:#fff;
 }
 
-    /* .custom-circle span{
-        color: red;
-    } */
+
    
 .bg-base-color-custom .last-paragraph-no-margin p:last-of-type {
     margin-bottom: 0;
