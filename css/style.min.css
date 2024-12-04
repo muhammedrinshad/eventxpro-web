@@ -23388,16 +23388,27 @@ margin-top: 100px;
     font-size: 15px;
 
 }
+.features-single .bg-csm-color{
+    min-height:290px !important;
+  }
 }
 @media screen and (max-width:1200px) {
     header .navbar-brand .default-logo {
         min-width: 120px;
         max-width: 158px;
     }
+    .features-single .bg-csm-color{
+        min-height:340px !important;
+      }
 }
 @media screen and (max-width: 992px) {
     .solution-person{
         margin-top: auto;
+    }
+    .custom-swiper-wrapper .swiper-slide {
+        height: 70%;
+
+        margin-top: 0;
     }
 }
 @media screen and (max-width: 768px) {
