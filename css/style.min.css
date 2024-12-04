@@ -23098,7 +23098,9 @@ z-index: 0;
   .custom-fit-img img {
     width: 100%;
     transition: all .3s ease-in-out;
-  }
+    object-fit: cover;
+    height: 100%;
+}
   
   .custom-fit-img img:hover   {
     transform: scale(1.2);
