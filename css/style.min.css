@@ -23350,7 +23350,7 @@ border: solid 1.2px #fff;
 
 
 }
-.card-body-custom h6{
+/* .card-body-custom h6{
 border: solid 1px #9C1271;
 padding: 2px 12px;
 font-size: 15px !important;
@@ -23367,8 +23367,17 @@ margin-bottom: 10px;
     border: solid 1px #9C1271;
     color: #fff;
     background: #841E78;
-    }
-
+    } */
+.blog-image{
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+}
+.blog-image img{
+    height: 100%;
+object-fit: cover;
+width: 100%;
+}
   .custom-swiper-wrapper .swiper-slide{
 height: 70%;
 display: flex;
