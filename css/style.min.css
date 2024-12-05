@@ -23444,6 +23444,12 @@ font-size: 35px;
 .custom-gallery ul li .bg-dark-gray{
     height: 100% !important;
 }
+.blog-writer-content p{
+font-size: 20px !important;
+}
+.blog-writer-content span{
+    font-size: 17px !important;
+    }
 @media screen and (max-width:1400px) {
     .custom-tab-content h5 span{
         font-size: 28px;
