@@ -23385,7 +23385,7 @@ align-items: center;
 margin-top: 100px;
   }
   .features-single .bg-csm-color{
-    min-height: 330px !important;
+    min-height: 410px !important;
   }
 .custom-app-btn{
     margin-top: 10px;
@@ -23408,7 +23408,7 @@ margin-top: 100px;
 }
 .tab-style-05 .nav-tabs .nav-item .nav-link span {
 
-    font-size: 15px;
+    font-size: 17px;
 }
 .custom-tab-content .custom-tab-img{
     width: 100%;
@@ -23420,9 +23420,41 @@ margin-top: 100px;
     object-fit: cover;
 }
 .custom-tab-content h5 span{
-font-size: 28px;
+font-size: 35px;
+}
+.solution-form-content h5 {
+    font-size: 42px;
+    line-height: normal;
+}
+.solution-form-content p {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.gallery-box, .portfolio-box {
+    overflow: hidden;
+    will-change: transform;
+    height: 500px;
+    border-radius: 30px;
+}
+.grid li img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.custom-gallery ul li .bg-dark-gray{
+    height: 100% !important;
 }
 @media screen and (max-width:1400px) {
+    .custom-tab-content h5 span{
+        font-size: 28px;
+        }
+        .tab-style-05 .nav-tabs .nav-item .nav-link span {
+
+            font-size: 15px;
+        }
+        .page-title-extra-large h1 {
+            font-size: 50px !important;
+        }
 .banner-text h1 {
     font-size: 45px;
 }
@@ -23486,6 +23518,9 @@ font-size: 28px;
 .features-single .bg-csm-color {
     min-height: 270px !important;
 }
+.page-title-extra-large h1 {
+    font-size: 40px !important;
+}
 
 }
 @media screen and (max-width: 600px) {
@@ -23499,6 +23534,7 @@ font-size: 28px;
     .features-single .bg-csm-color {
         min-height: auto !important;
     }
+    
    
     }
     @media screen and (max-width: 475px) {
