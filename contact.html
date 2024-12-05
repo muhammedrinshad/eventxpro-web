@@ -178,6 +178,11 @@
                                 <span class="form-icon text-white"><i class="bi bi-envelope icon-small"></i></span>
                                 <input class="fw-300 ps-0 border-radius-0px bg-transparent border-color-transparent-white-light placeholder-medium-gray form-control required" type="email" name="email" placeholder="Your email address*">
                             </div>
+                            <div class="position-relative form-group mb-20px">
+                                <span class="form-icon text-white"><i class="bi bi-telephone"></i></span>
+                                <input id="phone" class="ps-0 border-radius-0px bg-transparent border-color-extra-medium-gray form-control" type="tel" name="phone" placeholder="Your phone">
+                            </div>
+                            
                             <div class="position-relative form-group form-textarea mt-10px"> 
                                 <textarea class="fw-300 ps-0 border-radius-0px bg-transparent border-color-transparent-white-light placeholder-medium-gray form-control" name="comment" placeholder="Your message" rows="3"></textarea>
                                 <span class="form-icon text-white"><i class="bi bi-chat-square-dots icon-small"></i></span>
@@ -228,16 +233,7 @@
                 </div>
                 <!-- end footer column -->
                 <!-- start footer column -->
-                <div class="col-auto">
-                    <a href="contact.html"
-                        class="btn btn-extra-large btn-dark-gray btn-rounded btn-box-shadow btn-switch-text d-inline-block me-20px align-middle xs-m-0">
-                        <span>
-                            <span class="btn-double-text" data-text="Request Demo">Request Demo</span>
-                            <!-- <span><i class="feather icon-feather-thumbs-up"></i></span> -->
-                        </span>
-                    </a>
-
-                </div>
+               
                 <!-- end footer column -->
             </div>
         </div>
@@ -317,6 +313,19 @@
 
 
 
+    <script>
+        const input = document.querySelector("#phone");
+        const iti = window.intlTelInput(input, {
+            initialCountry: "auto", // Automatically set the country based on user location
+            geoIpLookup: function(callback) {
+                fetch('https://ipinfo.io/json?token=YOUR_TOKEN') // Optional: Replace YOUR_TOKEN with a real IPinfo API token
+                    .then((resp) => resp.json())
+                    .then((data) => callback(data.country))
+                    .catch(() => callback("US"));
+            },
+            utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js" // For formatting and validation
+        });
+    </script>
     
 
     <script type="text/javascript" src="js/jquery.js"></script>
