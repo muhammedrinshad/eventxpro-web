@@ -313,19 +313,7 @@
 
 
 
-    <script>
-        const input = document.querySelector("#phone");
-        const iti = window.intlTelInput(input, {
-            initialCountry: "auto", // Automatically set the country based on user location
-            geoIpLookup: function(callback) {
-                fetch('https://ipinfo.io/json?token=YOUR_TOKEN') // Optional: Replace YOUR_TOKEN with a real IPinfo API token
-                    .then((resp) => resp.json())
-                    .then((data) => callback(data.country))
-                    .catch(() => callback("US"));
-            },
-            utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js" // For formatting and validation
-        });
-    </script>
+   
     
 
     <script type="text/javascript" src="js/jquery.js"></script>
