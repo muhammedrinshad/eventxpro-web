@@ -23693,6 +23693,10 @@ font-size: 40px;
     text-transform: uppercase !important;
     font-size: 65px;
    }
+   .blog-writer-content h2 {
+
+    margin-top: 35px;
+}
 @media screen and (max-width:1400px) {
     .custom-tab-content h5 span {
         font-size: 28px;
