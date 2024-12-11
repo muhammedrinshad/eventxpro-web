@@ -23605,7 +23605,13 @@ footer .footer-logo img {
     margin-top: 35px;
 }
 
+/* .features-section{
+    padding-top: 60px !important;
+    position: relative;
+    margin-top: -5px;
+    background-color: #fff;
 
+} */
 @media screen and (max-width:1400px) {
     .custom-tab-content h5 span {
         font-size: 28px;
@@ -23836,6 +23842,9 @@ footer .footer-logo img {
 
     .solution-form-content h5 {
         margin-top: 35px;
+    }
+    .h-500px {
+        height: 300px !important;
     }
 }
 
