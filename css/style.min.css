@@ -1006,7 +1006,7 @@ a.text-jade-hover:hover {
     font-size: 28px
 }
 
-.icon-extra-medium {
+.review-slider .icon-extra-medium {
     font-size: 24px;
     background-image: linear-gradient(to right, #b45bc8, #d36e1d);
     border-radius: 15px;
@@ -1015,6 +1015,7 @@ a.text-jade-hover:hover {
 
 
 }
+
 
 .icon-small {
     font-size: 18px
@@ -23914,7 +23915,7 @@ footer .footer-logo img {
     .faq-text p {
         font-size: 16px !important;
     }
-    .icon-extra-medium {
+    .review-slider .icon-extra-medium {
         font-size: 16px;
         border-radius: 13px;
         padding: 7px;
