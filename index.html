@@ -704,13 +704,15 @@
                             <div class="custom-gif-title">
                                 EVENTXPRO FOR ATTENDEES
                             </div>
-                            <!-- <a href="#"><div class="custom-gif-btn">Visit</div></a> -->
-
-                            <!-- <p>Enrich your event participation with streamlined </p> -->
+                            <video loop="" autoplay="" playsinline="" muted="" preload="auto" id="mejs_5217348005770652_html5" src="video/Screen 2.webm" >
+                                <source type="video/webm" src="video/Screen 2.webm">
+                                </video>
+<!-- 
                             <video autoplay loop muted playsinline>
                                 <source src="video/Screen 2.webm" type="video/webm" type=' codecs="hvc1"'>
                                
-                            </video>
+                            </video> -->
+                            <!-- <img src="images/screen-2.gif" alt=""> -->
                             <div
                                 class="row pe-20px xl-pe-0 justify-content-center justify-content-lg-start custom-app-btn">
                                 <div href="#" class="col-6 col-lg-6 col-sm-5 ">
@@ -913,11 +915,15 @@
     <script type="text/javascript" src="js/vendors.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <script>
-        const bannerVideo = document.getElementById("bannervideo");
-        
-        if (window.innerWidth <= 768) { // Adjust for mobile or small screens
-          bannerVideo.removeAttribute("autoplay");
-        }
+        $(document).ready(function(){
+          var video_header = $('video');
+          video_header.prop('preload','auto');
+          video_header.prop('autoplay','true');
+          video_header.prop('loop','loop');
+          video_header.prop('playsinline','playsinline');
+          video_header.prop('webkit-playsinline','');
+          video_header.prop('muted','true');
+        });
         </script>
 </body>
 
