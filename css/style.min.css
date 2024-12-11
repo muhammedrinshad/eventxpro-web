@@ -23515,12 +23515,20 @@ p {
 
 
 
-.custom-form-control:focus {
-    color: #fff;
-    background-color: transparent;
+.custom-form-control {
+  width: 100% !important;
 
-    /* border-color: none; */
 
+
+
+}
+.custom-form .iti__arrow {
+    margin-left: 6px;
+    width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 4px solid #fff !important;
 }
 
 input::-webkit-outer-spin-button,
@@ -23605,13 +23613,31 @@ footer .footer-logo img {
     margin-top: 35px;
 }
 
-/* .features-section{
-    padding-top: 60px !important;
-    position: relative;
-    margin-top: -5px;
-    background-color: #fff;
-
-} */
+.form-control.is-valid, .was-validated .form-control:valid {
+    border-color:gray !important;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 3px;
+    background-color: #e8e7e8;
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+  
+    border-radius: 10px;
+    width: 3px;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgba(193, 0, 103, 0.54);
+    opacity: 0 !important;
+    border-radius: 10px;
+  }
+  .faq-text p {
+    font-size: 18px !important;
+}
 @media screen and (max-width:1400px) {
     .custom-tab-content h5 span {
         font-size: 28px;
@@ -24023,12 +24049,12 @@ footer .footer-logo img {
 
 @media screen and (max-width: 475px) {
     .banner-text h1 {
-        font-size: 26px;
+        font-size: 26px !important;
         margin-bottom: 10px;
     }
 
     .banner-text p {
-        font-size: 15px;
+        font-size: 16px !important;
         margin-bottom: 18px !important;
     }
 

@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/responsive.min.css" />
     <link rel="stylesheet" href="css/branding-agency.css" />
     <link rel="stylesheet" href="css/application.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/css/intlTelInput.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/css/intlTelInput.css" />
 </head>
 
 <body>
@@ -156,9 +156,17 @@
                                     class="fw-300 ps-0 border-radius-0px bg-transparent border-color-transparent-white-light placeholder-medium-gray form-control required"
                                     type="email" name="email" placeholder="Your email address*">
                             </div>
-                            <div class="form-group">
-                                <input type="number" id="mobile_code" class="form-control custom-form-control required"
-                                    placeholder="Phone Number" name="name">
+                            <div class="form-group position-relative mb-10px">
+                                <span class="form-icon text-white">
+                                    <i class="bi bi-telephone-outbound"></i>
+                                </span>
+                                <input 
+                                    type="number" 
+                                    id="mobile_code" 
+                                    class="form-control custom-form-control fw-300 ps-160 border-radius-0px bg-transparent border-color-transparent-white-light placeholder-medium-gray required" 
+                                    placeholder="Phone Number" 
+                                    name="mobile_code"
+                                />
                             </div>
 
                             <div class="position-relative form-group form-textarea mt-10px">
@@ -297,17 +305,17 @@
 
 
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/intlTelInput-jquery.min.js"></script>
-    <!-- <script type="text/javascript" src="js/jquery.js"></script> -->
+ 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/intlTelInput.min.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/vendors.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <script>
-        // -----Country Code Selection
-        $("#mobile_code").intlTelInput({
-            initialCountry: "in",
-            separateDialCode: true,
-            // utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.4/js/utils.js"
+        // Initialize intl-tel-input with Saudi Arabia (KSA) as the default country
+        const mobileInput = document.querySelector("#mobile_code");
+        window.intlTelInput(mobileInput, {
+            initialCountry: "sa", // Saudi Arabia
+            separateDialCode: true, // Display the country code separately
         });
     </script>
 </body>
