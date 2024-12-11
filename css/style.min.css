@@ -23777,7 +23777,10 @@ footer .footer-logo img {
         margin-top: 30px;
         line-height: 36px !important;
     }
-
+    .contact-title span {
+   
+        font-size: 50px;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -23924,6 +23927,9 @@ footer .footer-logo img {
         height: 150px;
 
     }
+    .contact-title span {
+        font-size: 40px;
+    }
 
 }
 
@@ -24000,6 +24006,9 @@ footer .footer-logo img {
         height: 250px;
 
     }
+    .footer-overlap-section h6{
+        font-size: 18px !important;
+    }
 
 }
 
@@ -24069,5 +24078,11 @@ footer .footer-logo img {
     }
     .blog-image {
         height: 200px;
+    }
+    .contact-title span {
+        font-size: 30px;
+    }
+    .contact-form-title{
+        font-size: 30px !important;
     }
 }
