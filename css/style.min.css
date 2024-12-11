@@ -23871,12 +23871,12 @@ footer .footer-logo img {
     }
 
     .card-body a {
-        font-size: 16px !important;
-        line-height: 25px;
+        font-size: 14px !important;
+        line-height: 20px;
     }
 
     .card-body {
-        min-height: 300px;
+        min-height: 230px;
     }
 
     .card-body p {
@@ -23919,6 +23919,10 @@ footer .footer-logo img {
         font-size: 16px;
         border-radius: 13px;
         padding: 7px;
+    }
+    .blog-image {
+        height: 150px;
+
     }
 
 }
@@ -23992,6 +23996,10 @@ footer .footer-logo img {
     .custom-tab-img {
         height: 260px;
     }
+    .blog-image {
+        height: 250px;
+
+    }
 
 }
 
@@ -24058,5 +24066,8 @@ footer .footer-logo img {
 
     .faq-text p {
         font-size: 14px !important;
+    }
+    .blog-image {
+        height: 200px;
     }
 }
