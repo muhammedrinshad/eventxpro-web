@@ -23160,7 +23160,7 @@ footer .footer-navbar .nav-item:last-child a {
 
 .bg-base-color-custom .bg-base-color,
 .header-cart-icon .cart-count {
-    background-image: linear-gradient(to right, purple, mediumpurple) !important;
+    background-image:linear-gradient(#662D80,#C10067) !important;
 }
 
 .bg-base-color-custom .bg-base-color,
@@ -23169,12 +23169,17 @@ footer .footer-navbar .nav-item:last-child a {
 }
 
 
-
+.bg-base-color-custom .last-paragraph-no-margin span{
+    font-size: 25px !important;
+    font-weight: 700 !important;
+ 
+}
 .bg-base-color-custom .last-paragraph-no-margin p:last-of-type {
     margin-bottom: 0;
-    line-height: normal;
+    line-height: 30px;
     color: #fff !important;
     opacity: 1;
+    margin-top: 10px;
 }
 
 .custom-accordion .last-paragraph-no-margin p:last-of-type {
@@ -23519,8 +23524,6 @@ p {
   width: 100% !important;
 
 
-
-
 }
 .custom-form .iti__arrow {
     margin-left: 6px;
@@ -23558,7 +23561,7 @@ input::-webkit-inner-spin-button {
 
 .bg-base-img {
     background: url(../images/features/hero-banner.jpg) !important;
-    background-size: cover;
+    background-size: cover !important;
     background-repeat: no-repeat;
 }
 
@@ -23637,6 +23640,9 @@ footer .footer-logo img {
   }
   .faq-text p {
     font-size: 18px !important;
+}
+.swiper-slide-btn{
+    display: flex;justify-content: end; gap: 30px; align-items: center;  
 }
 @media screen and (max-width:1400px) {
     .custom-tab-content h5 span {
@@ -23871,6 +23877,10 @@ footer .footer-logo img {
     }
     .h-500px {
         height: 300px !important;
+    }
+    .swiper-slide-btn {
+        justify-content: center;
+
     }
 }
 

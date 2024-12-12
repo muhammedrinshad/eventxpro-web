@@ -252,7 +252,7 @@ footer .footer-logo img {
 
 /* rinshad style */
 .custom-btn {
-    background-image: linear-gradient(to right, #b45bc8, #d36e1d, #d18215);
+    background-image: linear-gradient(to right, #662D80, #C10067, #b45bc8);
     background-size: 200% auto;
     color: var(--white);
 }
@@ -262,5 +262,5 @@ footer .footer-logo img {
 }
 
 .text-gradient-base-color-custom {
-    background-image: linear-gradient(to right, #b45bc8, #d36e1d, #d18215);
+    background-image: linear-gradient(to right, #662D80, #C10067, #b45bc8);
 }
