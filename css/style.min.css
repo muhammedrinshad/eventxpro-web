@@ -1008,9 +1008,16 @@ a.text-jade-hover:hover {
 
 .review-slider .icon-extra-medium {
     font-size: 24px;
-    background-image: linear-gradient(to right, #b45bc8, #d36e1d);
+    /* background-image: linear-gradient(#662D80, #C10067) !important; */
     border-radius: 15px;
     padding: 10px;
+    color: #662D80;
+border: solid 1.5px #662D80;
+background-color: transparent;
+
+}
+.review-slider .icon-extra-medium:hover {
+    background-image: linear-gradient(#662D80, #C10067) !important;
     color: #fff;
 
 
@@ -23963,11 +23970,7 @@ footer .footer-logo img {
     .faq-text p {
         font-size: 16px !important;
     }
-    .review-slider .icon-extra-medium {
-        font-size: 16px;
-        border-radius: 13px;
-        padding: 7px;
-    }
+   
     .blog-image {
         height: 150px;
 
@@ -24053,6 +24056,11 @@ footer .footer-logo img {
     }
     .footer-overlap-section h6{
         font-size: 18px !important;
+    }
+    .review-slider .icon-extra-medium {
+        font-size: 16px;
+        border-radius: 13px;
+        padding: 7px;
     }
 
 }
