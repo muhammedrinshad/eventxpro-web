@@ -23901,6 +23901,7 @@ footer .footer-logo img {
 
     .swiper-slide-btn {
         justify-content: right;
+        gap: 15px;
 
     }
 }
@@ -23991,7 +23992,7 @@ footer .footer-logo img {
     }
 
     .contact-title span {
-        font-size: 40px;
+        font-size: 46px;
     }
 
 }
@@ -24153,7 +24154,7 @@ footer .footer-logo img {
     }
 
     .contact-title span {
-        font-size: 30px;
+        font-size: 39px;
     }
 
     .contact-form-title {
