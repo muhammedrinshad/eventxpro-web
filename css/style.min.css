@@ -23050,7 +23050,7 @@ footer .footer-navbar .nav-item:last-child a {
 
 .bg-csm-color h6 {
     color: #841E78;
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: 5px;
 }
 
@@ -23581,9 +23581,9 @@ footer .footer-logo img {
 }
 
 .bg-csm-color p {
-    color: #000;
-    line-height: 25px;
-    font-size: 18px !important;
+  color: #8e8e8e;
+  line-height: 28px;
+  font-size: 16px !important;
 
 }
 
@@ -23614,6 +23614,7 @@ footer .footer-logo img {
 .solution-form-content h5 {
     font-size: 40px;
     margin-top: 70px;
+    line-height: 45px;
 }
 
 .contact-title span {
@@ -23680,10 +23681,10 @@ footer .footer-logo img {
         font-size: 45px;
     }
 
-    .bg-csm-color h6 {
+    /* .bg-csm-color h6 {
 
         font-size: 16px;
-    }
+    } */
 
     .bg-csm-color span {
         font-size: 20px;
@@ -23691,9 +23692,9 @@ footer .footer-logo img {
     }
 
     .bg-csm-color p {
-        color: #000;
+        /* color: #000; */
         line-height: 25px;
-        font-size: 16px !important;
+        /* font-size: 16px !important; */
 
     }
 
@@ -23759,7 +23760,7 @@ footer .footer-logo img {
     }
 
     .features-single .bg-csm-color {
-        min-height: 435px !important;
+        min-height: 455px !important;
     }
 
 
@@ -23855,7 +23856,7 @@ footer .footer-logo img {
     }
 
     .features-single .bg-csm-color {
-        min-height: 355px !important;
+        min-height: 375px !important;
     }
 
     .blogs-detail-side {
@@ -24070,6 +24071,13 @@ footer .footer-logo img {
     .blog-image {
         height: 250px;
 
+    }
+
+    .footer-overlap-section .ft-cont{
+        justify-content: center!important;
+    }
+    .footer-overlap-section .ft-cont .ft-cont-head{
+        text-align: center!important;
     }
 
     .footer-overlap-section h6 {
